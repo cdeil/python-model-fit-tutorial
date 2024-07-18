@@ -1,0 +1,31 @@
+name: py-model-fit
+channels:
+  - conda-forge
+  - https://cxc.cfa.harvard.edu/conda/sherpa
+  - nodefaults
+dependencies:
+  # As soon as Sherpa releases Python 3.12 support we can use 3.12
+  # See https://github.com/sherpa/sherpa/pull/1949
+  - python=3.11
+  - pydantic
+  - pandas
+  - polars
+  - pyarrow
+  - scipy
+  - statsmodels
+  - iminuit
+  - jupyter
+  - jupyterlab
+  - astropy
+  - gammapy
+  - sherpa
+  - lmfit
+  - matplotlib
+  - seaborn
+  - bokeh
+  - jupyter_bokeh
+  - hvplot
+  - panel
+  - psutil
+  - pyyaml
+  - ruff
