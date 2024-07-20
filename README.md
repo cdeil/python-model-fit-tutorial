@@ -14,7 +14,7 @@ To follow along and be able to edit and execute the examples you can do this:
 
 ```
 git clone https://github.com/cdeil/python-modeling-fitting-tutorial.git
-cd python-modeling-fitting-tutorial
+cd python-model-fit-tutorial
 conde env create -y -f environment.yml
 conda activate py-model-fit
 ```
